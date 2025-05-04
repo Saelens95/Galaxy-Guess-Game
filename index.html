@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpaceStuff</title>
+
+  <!-- Links to the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+  <!-- MUISC -->
+  <audio id="splashMusic" src="scott-buckley-moonlight(chosic.com).mp3" loop autoplay></audio>
+  <audio id="clickSound" src="menu-button-89141.mp3" preload="auto"></audio>
+  <audio id="buttonSound" src="90s-game-ui-7-185100.mp3" preload="auto"></audio>
+
+  <!-- Particles container -->
+  <div id="particles-js"></div>   
+
+  <!-- Splash Screen -->
+  <div id="splash-screen" style="display: block;">
+    <div>
+      <h1 id="game-title" class="tlt">SPACE STUFF</h1>
+    </div>
+
+    <p class="description" id="description">Test your knowledge of the Universe!</p>
+
+    <div id="start-container">
+      <button id="startButton" class="btn magnetic">
+        <span>Click to begin!</span>
+        <div class="particles-field" id="particleField"></div>
+      </button>
+    </div>
+
+    <!-- Creator Text -->
+    <p id="creator-credit" style="text-align: center" class="tlt">
+      <span>A Saelenspace Game.</span>
+    </p>
+  </div>
+
+  <!-- Game Container -->
+  <div id="game" style="display: none;">
+    <div id="prompt"></div>
+    <div class="images" id="imageContainer"></div>
+
+    <div id="feedback-container" style="text-align: center;">
+      <p id="feedback"></p>
+      <button id="tryAgainButton" class="btn" style="display: none;">Try Again?</button>
+    </div>
+
+    <p id="nasa-credit" style="text-align: center" class="tlt">
+      <span>Image Credit: NASA</span>
+    </p>
+
+    <div id="hud">
+      <div id="counter">Score: 0</div>
+        <div id="lives">
+          <span class="life full"></span>
+          <span class="life full"></span>
+          <span class="life full"></span>
+        </div>
+
+
+    </div>
+  </div>
+
+  
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- textillate.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+
+  <!-- particle.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+  <!-- MAIN JS file -->
+  <script src="main.js"></script>
+
+</body>
+</html>
