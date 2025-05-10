@@ -249,7 +249,7 @@ h1 {
 
 }
 
-@media (max-width: 300px) and (orientation: portrait) {
+@media (max-width: 600px) and (orientation: portrait) {
   .images {
     justify-content: center;
     display: flex;
