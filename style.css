@@ -234,7 +234,7 @@ h1 {
 @media (max-width: 600px) {
   #prompt {
     font-size: 6vw;
-    margin: 30px 20px 20px;
+    margin: 50px 20px 20px;
     text-align: center;
     color: aliceblue;
   }
@@ -288,8 +288,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 15vw;
-    height: 15vw;
+    width: 20vw;
+    height: 20vw;
     max-width: 100px;
     object-fit: cover;
     cursor: pointer;
@@ -320,8 +320,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 30vh;
-    height:20vh;
+    width: 20vh;
+    height: 20vh;
     max-width: 100px;
     /* max-height: 100px; */
     object-fit: cover;
