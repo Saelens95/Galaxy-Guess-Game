@@ -288,8 +288,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 25vw;
+    height: 25vw;
     max-width: 100px;
     object-fit: cover;
     cursor: pointer;
@@ -320,8 +320,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 20vh;
-    height: 20vh;
+    width: 20vw;
+    height: 20vw;
     max-width: 100px;
     /* max-height: 100px; */
     object-fit: cover;
