@@ -290,8 +290,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
     max-width: 100px;
     object-fit: cover;
     cursor: pointer;
