@@ -414,9 +414,17 @@ h1 {
   background-color: transparent;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (orientation: portrait) {
   #counter {
     font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+  #counter {
+    font-size: 0.9em;
     font-weight: bold;
     color: white;
   }
