@@ -236,7 +236,7 @@ h1 {
 @media (max-width: 600px) {
   #prompt {
     font-size: 6vw;
-    margin: 70px 20px 40px;
+    margin: 70px 40px 40px;
     text-align: center;
     color: aliceblue;
   }
@@ -305,7 +305,7 @@ h1 {
   }
 }
 
-/* @media (max-width: 800px) and (orientation: landscape) {
+@media (max-width: 800px) and (orientation: landscape) {
   .images {
     justify-content: center;
     display: flex;
@@ -317,27 +317,27 @@ h1 {
     margin: 40px 0;
     padding: 0;
     position: relative; /* Ensure stacking context */
-/*     z-index: 1;      
+    z-index: 1;      
   }
 
   .images img {
     border-radius: 50%;
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     max-width: 100px;
     /* max-height: 100px; */
-/*     object-fit: cover;
+    object-fit: cover;
     cursor: pointer;
     border: 4px solid white;
     transition: transform 0.2s;
   }
 
   .images img:hover {
-    transform: scale(1.25);
+    transform: scale(1.05);
     border-color: #d9de77;
   }
 }
- */ */ */
+
 
 #feedback-container {
   text-align: center;
