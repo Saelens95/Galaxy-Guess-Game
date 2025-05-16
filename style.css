@@ -290,8 +290,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     max-width: 100px;
     object-fit: cover;
     cursor: pointer;
@@ -416,7 +416,7 @@ h1 {
   background-color: transparent;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) and (orientation: portrait) {
   #counter {
     font-size: 1.2em;
     font-weight: bold;
@@ -424,13 +424,13 @@ h1 {
   }
 }
 
-/* @media (max-width: 800px) and (orientation: landscape) {
+@media (max-width: 800px) and (orientation: landscape) {
   #counter {
     font-size: 0.9em;
     font-weight: bold;
     color: white;
   }
-} */
+}
 
 @meida (max-width: 800px) {
     .life {
