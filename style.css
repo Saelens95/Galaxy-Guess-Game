@@ -414,7 +414,7 @@ h1 {
   background-color: transparent;
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+@media (max-width: 800px) {
   #counter {
     font-size: 1.2em;
     font-weight: bold;
@@ -422,15 +422,15 @@ h1 {
   }
 }
 
-@media (max-width: 800px) and (orientation: landscape) {
+/* @media (max-width: 800px) and (orientation: landscape) {
   #counter {
     font-size: 0.9em;
     font-weight: bold;
     color: white;
   }
-}
+} */
 
-@meida (max-width: 800px) and (orientation: landscape) {
+@meida (max-width: 800px) {
     .life {
       width: 10px;
       height: 10px;
