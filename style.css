@@ -394,7 +394,7 @@ h1 {
 
 @media (max-width: 500px) {
   #counter {
-    font-size: 1.8em;
+    font-size: 1.2em;
     font-weight: bold;
     color: white;
   }
@@ -416,6 +416,21 @@ h1 {
 
 .life.empty {
   background-color: transparent;
+}
+
+@meida (max-width: 500px) and (orientation: landscape) {
+    .life {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid white;
+      background-color: #fff; /* full by default */
+      transition: background-color 0.3s ease;
+    }
+    
+    .life.empty {
+      background-color: transparent;
+    }
 }
 
 #nasa-credit {
