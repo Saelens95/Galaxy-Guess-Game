@@ -271,7 +271,7 @@ h1 {
 
 }
 
-@media (max-width: 400px) and (orientation: portrait) {
+@media (max-width: 500px) and (orientation: portrait) {
   .images {
     justify-content: center;
     display: flex;
@@ -430,7 +430,7 @@ h1 {
   }
 }
 
-@meida (max-width: 500px) and (orientation: landscape) {
+@meida (max-width: 800px) and (orientation: landscape) {
     .life {
       width: 10px;
       height: 10px;
