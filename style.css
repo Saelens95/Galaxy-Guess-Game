@@ -25,7 +25,7 @@
     #splash-screen #startButton,
     #splash-screen #game-title {
       transform: scale(0.5);
-      max-width: 90vw;
+      max-width: 60vw;
     }
     #splash-screen h1,
     #splash-screen #game-title {
@@ -33,7 +33,7 @@
       line-height: 1.2;
     }
     #splash-screen #description {
-      font-size: 0.9rem
+      font-size: 0.8rem
     }
   }
   
@@ -392,14 +392,6 @@ h1 {
   color: white;
 }
 
-@media (max-width: 500px) {
-  #counter {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: white;
-  }
-}
-
 #lives {
   display: flex;
   gap: 15px;
@@ -416,6 +408,14 @@ h1 {
 
 .life.empty {
   background-color: transparent;
+}
+
+@media (max-width: 500px) {
+  #counter {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+  }
 }
 
 @meida (max-width: 500px) and (orientation: landscape) {
