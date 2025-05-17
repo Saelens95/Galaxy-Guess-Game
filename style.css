@@ -322,8 +322,8 @@ h1 {
 
   .images img {
     border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
+    width: 20vh;
+    height: 20vh;
     max-width: 70px;
     /* max-height: 100px; */
     object-fit: cover;
