@@ -236,7 +236,7 @@ h1 {
 @media (max-width: 600px) {
   #prompt {
     font-size: 6vw;
-    margin: 70px 20px 40px;
+    margin: 80px 20px 40px;
     text-align: center;
     color: aliceblue;
   }
