@@ -19,31 +19,30 @@
   @media (max-width: 800px) and (orientation: landscape) {
     #splash-screen {
       justify-content: flex-start;
-      padding-top:2rem;
     }
   
     #splash-screen h1,
     #splash-screen #description,
     #splash-screen #startButton,
     #splash-screen #game-title {
-      font-size: 0.9rem;
-      max-width: 90vw;
+      font-size: 0.6rem;
+      max-width: 70vw;
     }
     #splash-screen #game-title {
-      font-size: 1.2rem;
+      font-size: 1.0rem;
       line-height: 1.3;
     }
     #splash-screen #description {
-      font-size: 0.85rem
+      font-size: 0.80rem
     }
 
     #splash-screen #startButton {
-      transform: scale(0.9);
+      transform: scale(0.7);
     }
   }
 
 #game-title {
-    font-size: 6.9em; /* smaller but still responsive */
+    font-size: 6.3em; /* smaller but still responsive */
     padding-top: 80px;
     font-family: 'Megrim', sans-serif;
 }
