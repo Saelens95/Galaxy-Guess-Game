@@ -431,7 +431,7 @@ h1 {
   }
 }
 
-@meida (max-width: 800px) {
+@media (max-width: 800px) {
     .life {
       width: 10px;
       height: 10px;
